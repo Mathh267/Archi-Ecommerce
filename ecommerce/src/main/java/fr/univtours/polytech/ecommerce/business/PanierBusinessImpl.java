@@ -7,6 +7,7 @@ import fr.univtours.polytech.ecommerce.model.ArticlePanierBean;
 
 public class PanierBusinessImpl implements PanierBusiness {
 
+    
     @Override
     public Float ComputeTotalArticlePanier(List<ArticlePanierBean> ListeArticlePanier) {
         if (ListeArticlePanier.isEmpty()){
