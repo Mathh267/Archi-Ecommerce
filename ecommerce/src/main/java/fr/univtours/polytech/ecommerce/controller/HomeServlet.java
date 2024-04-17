@@ -10,6 +10,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 
 @WebServlet(name = "HomeServlet", urlPatterns = { "/HomeServlet" })
 public class HomeServlet extends HttpServlet {
@@ -20,8 +21,18 @@ public class HomeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
-        dispatcher.forward(request, response);
+
+        HttpSession session = request.getSession();
+        String Login = (String) session.getAttribute("Login");
+        if (Login != null){
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/Article");
+            dispatcher.forward(request, response);
+        }
+
+        else{
+            RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+            dispatcher.forward(request, response);
+        }
     }
 
     @Override
@@ -36,7 +47,10 @@ public class HomeServlet extends HttpServlet {
                 dispatcher.forward(request, response);
             }
             else{
-                RequestDispatcher dispatcher = request.getRequestDispatcher("/acceuil");
+                
+                HttpSession session = request.getSession();
+                session.setAttribute("Login", Login);
+                RequestDispatcher dispatcher = request.getRequestDispatcher("/Article");
                 dispatcher.forward(request, response);
             }
     }
