@@ -1,15 +1,14 @@
-fr\univtours\polytech\ecommerce\controller\ArticleServlet.class
 fr\univtours\polytech\ecommerce\model\ArticlePanierBean.class
 fr\univtours\polytech\ecommerce\DAO\UserDAOImplJPA.class
+fr\univtours\polytech\ecommerce\business\PanierBusinessImpl.class
 fr\univtours\polytech\ecommerce\DAO\UserDAO.class
 fr\univtours\polytech\ecommerce\model\UserBean.class
-<<<<<<< HEAD
-fr\univtours\polytech\ecommerce\DAO\ArticleDAOImplJPA.class
-=======
->>>>>>> 170ed6fb8f6926b012e7a16a3957cbb7855191a5
+fr\univtours\polytech\ecommerce\controller\PanierServlet.class
 fr\univtours\polytech\ecommerce\DAO\ArticleDAO.class
 fr\univtours\polytech\ecommerce\model\ArticleBean.class
+fr\univtours\polytech\ecommerce\controller\ArticleServlet.class
 fr\univtours\polytech\ecommerce\resources\JakartaEE10Resource.class
 fr\univtours\polytech\ecommerce\JakartaRestConfiguration.class
+fr\univtours\polytech\ecommerce\business\PanierBusiness.class
 fr\univtours\polytech\ecommerce\DAO\ArticleDAOImplJPA.class
 fr\univtours\polytech\ecommerce\controller\HomeServlet.class
