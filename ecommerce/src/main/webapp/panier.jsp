@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,25 +7,21 @@
 </head>
 <body>
 <h1>Prix</h1>
-<table>
+<table border="1">
     <thead>
       <tr>
-        <th scope="col">Article</th>
-        <th scope="col">Prix</th>
-        <th scope="col">Quantité</th>
-
+        <th>Article</th>
+        <th>Prix Unité</th>
+        <th>Quantité</th>
+        <th>Prix totale</th>
       </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Table</td>
-        <!-- <th scope="row">Table</th> -->
-        <td>200,0</td>
-        <td>1</td>
-      </tr>
-    </tbody>
 </table>
-<input type="submit" value="Payer">
+<form action="deconnecter" method="get">
+  <input type="submit" value="Payer">
+</form>
 <input type="submit" value="Retour">
+<form action="deconnecter" method="get">
+  <input type="submit" value="Se déconnecter">
+</form>
 </body>
 </html>

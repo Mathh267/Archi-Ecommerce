@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\JakartaRestConfiguration.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\controller\ArticleServlet.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\DAO\UserDAOImplJPA.java
+C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\model\PanierBean.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\model\UserBean.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\model\ArticlePanierBean.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\resources\JakartaEE10Resource.java
@@ -11,22 +11,7 @@ C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\controller\HomeServlet.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\DAO\ArticleDAO.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\DAO\UserDAO.java
+C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\business\ConnectionBusinessImp.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\model\ArticleBean.java
+C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\business\ConnectionBusiness.java
 C:\Users\offic\OneDrive\Bureau\TPNote\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\business\PanierBusiness.java
-=======
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\resources\JakartaEE10Resource.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\business\ConnectionBusiness.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\model\ArticleBean.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\model\UserBean.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\controller\ArticleServlet.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\controller\HomeServlet.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\DAO\ArticleDAO.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\business\PanierBusiness.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\DAO\ArticleDAOImplJPA.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\model\ArticlePanierBean.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\business\ConnectionBusinessImp.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\JakartaRestConfiguration.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\business\PanierBusinessImpl.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\DAO\UserDAO.java
-c:\JEE\Archi-Ecommerce\Archi-Ecommerce\ecommerce\src\main\java\fr\univtours\polytech\ecommerce\DAO\UserDAOImplJPA.java
->>>>>>> fad2d30089b7a7853f9a34a7c84a2809359992a8

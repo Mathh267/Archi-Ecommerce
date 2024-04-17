@@ -8,6 +8,14 @@ public class ArticlePanierBean implements Serializable{
     private ArticleBean articleBean;
     private int quantitéPanier;
 
+
+
+    public ArticlePanierBean(ArticleBean articleBean,int quantitéPanier){
+        this.articleBean=articleBean;
+        this.quantitéPanier=quantitéPanier;
+    }
+
+
     public ArticleBean getArticleBean() {
         return articleBean;
     }
@@ -21,5 +29,6 @@ public class ArticlePanierBean implements Serializable{
         this.quantitéPanier = quantitéPanier;
     }
 
-    
+
+ 
 }
