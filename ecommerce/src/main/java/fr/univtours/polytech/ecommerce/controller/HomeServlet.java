@@ -1,5 +1,6 @@
 package fr.univtours.polytech.ecommerce.controller;
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -14,11 +15,10 @@ import java.io.PrintWriter;
 public class HomeServlet extends HttpServlet {
 
     @Override
-    public void doGet(HttpServletRequest request, HttpServletResponse response)
-        throws ServletException, IOException {
-    response.setContentType("text/html");
-    PrintWriter out = response.getWriter(); 
-    out.println("<html><head></head><body>Hello World !</body></html>"); 
-    }
+    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
+		dispatcher.forward(request, response);
+	}
    
 }
