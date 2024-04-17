@@ -144,3 +144,8 @@ ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/model
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ecommerce/target/ecommerce.war
+ecommerce/target/maven-archiver/pom.properties
+ecommerce/target/ecommerce.war
+ecommerce/target/ecommerce/home.jsp
+ecommerce/target/maven-archiver/pom.properties
