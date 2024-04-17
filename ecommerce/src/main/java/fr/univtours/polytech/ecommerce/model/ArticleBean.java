@@ -14,7 +14,7 @@ public class ArticleBean implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    private Float price;
+    private Float prix;
     private Integer nbRestant;
 
     public Integer getId() {
@@ -33,12 +33,12 @@ public class ArticleBean implements Serializable {
         this.name = name;
     }
 
-    public Float getPrice() {
-        return price;
+    public Float getPrix() {
+        return prix;
     }
 
-    public void setPrice(Float price) {
-        this.price = price;
+    public void setPrix(Float prix) {
+        this.prix = prix;
     }
 
     public Integer getNbRestant() {
