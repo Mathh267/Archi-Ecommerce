@@ -54,3 +54,5 @@ ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/serve
 ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/servlet/controller/HomeServlet.class
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/business/PanierBusiness.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/business/PanierBusinessImpl.class
