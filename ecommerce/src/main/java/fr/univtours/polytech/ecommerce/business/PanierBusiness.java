@@ -7,6 +7,8 @@ import fr.univtours.polytech.ecommerce.model.ArticlePanierBean;
 
 public interface PanierBusiness {
 
+    public List<ArticleBean> getArticles();
+    
     public List<ArticlePanierBean> addArticlePanierBean(List<ArticlePanierBean> ListeArticlePanier,ArticlePanierBean ArticlePanier);
 
     public List<ArticlePanierBean> addQuantiteArticlePanierBean(List<ArticlePanierBean> ListeArticlePanier,ArticleBean Article,Integer Quantité);

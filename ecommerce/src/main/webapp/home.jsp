@@ -1,3 +1,7 @@
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -19,11 +23,13 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Table</td>
-        <!-- <th scope="row">Table</th> -->
-        <td>200,0</td>
-        <td>2</td>
+        <c:forEach items="${requestScope.ARTICLE_LIST}" var="article">
+          <tr>
+              <td>${article.name}</td>
+              <td>${article.prix}</td>
+              <td>${article.nbRestant}</td>
+          </tr>
+      </c:forEach>
       </tr>
     </tbody>
   </table>
