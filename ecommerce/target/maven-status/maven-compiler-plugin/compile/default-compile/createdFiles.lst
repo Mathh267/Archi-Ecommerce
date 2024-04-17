@@ -1,0 +1,6 @@
+fr\univtours\polytech\ecommerce\servlet\controller\HomeServlet.class
+fr\univtours\polytech\ecommerce\JakartaRestConfiguration.class
+fr\univtours\polytech\ecommerce\model\UserBean.class
+fr\univtours\polytech\ecommerce\servlet\controller\ArticleServlet.class
+fr\univtours\polytech\ecommerce\model\ArticleBean.class
+fr\univtours\polytech\ecommerce\servelet\resources\JakartaEE10Resource.class
