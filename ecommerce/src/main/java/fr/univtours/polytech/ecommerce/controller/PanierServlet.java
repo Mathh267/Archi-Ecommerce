@@ -10,12 +10,12 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 
+@WebServlet(name="PanierServlet", urlPatterns = {"/Panier"})
+public class PanierServlet extends HttpServlet {
 
-@WebServlet(name="ArticleServlet", urlPatterns = {"/Article"})
-public class ArticleServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		RequestDispatcher dispatcher = request.getRequestDispatcher("home.jsp");
+		RequestDispatcher dispatcher = request.getRequestDispatcher("panier.jsp");
 		dispatcher.forward(request, response);
         }
     
