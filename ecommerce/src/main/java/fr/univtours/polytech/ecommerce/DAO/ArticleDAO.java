@@ -8,5 +8,8 @@ public interface ArticleDAO {
 
     public List<ArticleBean> getArticleList();
 
+    public void addQuantiteArticle(ArticleBean article,int Quantité);
+
+    public void delQuantiteArticle(ArticleBean article,int Quantité);
 
 }

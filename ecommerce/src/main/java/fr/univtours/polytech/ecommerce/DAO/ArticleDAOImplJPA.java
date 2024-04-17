@@ -22,4 +22,16 @@ public class ArticleDAOImplJPA implements ArticleDAO{
         return requete.getResultList();
     }
 
+    @Override
+    public void addQuantiteArticle(ArticleBean article,int Quantité){
+        article.setNbRestant(article.getNbRestant()+Quantité);
+    }
+
+    
+    @Override
+    public void delQuantiteArticle(ArticleBean article,int Quantité){
+        article.setNbRestant(article.getNbRestant()-Quantité);
+    }
+
+
 }
