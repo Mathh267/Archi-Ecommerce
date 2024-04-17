@@ -30,7 +30,7 @@
               <td></td>
               <td><a href="">+</a></td> pour ajouter 
           </tr>
-      </c:forEach>-->
+      </c:forEach>
   </table>
   <a href="">Voir le panier</a>
 </body>
