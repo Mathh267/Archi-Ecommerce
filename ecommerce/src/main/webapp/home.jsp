@@ -40,7 +40,7 @@
             </form>
           </td>
           </tr>
-      </c:forEach>-->
+      </c:forEach>
   </table>
   <a href="">Voir le panier</a>
 </body>
