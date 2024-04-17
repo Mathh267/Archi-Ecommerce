@@ -5,7 +5,7 @@ import java.util.List;
 
 import fr.univtours.polytech.ecommerce.business.PanierBusiness;
 import fr.univtours.polytech.ecommerce.model.ArticleBean;
-import fr.univtours.polytech.ecommerce.model.ArticlePanierBean;
+import fr.univtours.polytech.ecommerce.model.PanierBean;
 import jakarta.inject.Inject;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -26,13 +26,12 @@ public class ArticleServlet extends HttpServlet {
 
 		HttpSession session = request.getSession();
 
-		@SuppressWarnings("unchecked")
-		List<ArticlePanierBean> ListeArticlePanier = (List<ArticlePanierBean>) session.getAttribute("ListeArticlePanier");
+		PanierBean Panier = (PanierBean) session.getAttribute("Panier");
 
 		List<ArticleBean> ListeArticle = PanierBusiness.getArticles();
 
-		if(ListeArticlePanier != null){
-			request.setAttribute("ARTICLEPANIER_LIST", ListeArticlePanier);
+		if(Panier != null){
+			request.setAttribute("PANIER", Panier);
 		}
 		if (ListeArticle != null ){
 			request.setAttribute("ARTICLE_LIST", ListeArticle);

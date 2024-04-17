@@ -26,9 +26,19 @@
               <td>${article.name}</td>
               <td>${article.prix}</td>
               <td>${article.nbRestant}</td>
-              <td><a href="">-</a></td> pour enlever 
-              <td></td>
-              <td><a href="">+</a></td> pour ajouter 
+              <td>
+                <form method="post" action="remove">
+                    <input type="hidden" name="articleId" value="${article.id}">
+                    <input type="submit" value="-">
+                </form>
+            </td>
+              <td>${PANIER.getItemQuantité(article.id)}</td>
+              <td>
+              <form method="post" action="add">
+                <input type="hidden" name="articleId" value="${article.id}">
+                <input type="submit" value="+">
+            </form>
+          </td>
           </tr>
       </c:forEach>-->
   </table>
