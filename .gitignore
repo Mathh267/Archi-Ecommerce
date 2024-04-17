@@ -99,3 +99,14 @@ ecommerce/target/ecommerce/login.jsp
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/JakartaRestConfiguration.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/ArticleBean.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/UserBean.class
+ecommerce/target/ecommerce.war
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/JakartaRestConfiguration.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/ArticleBean.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/UserBean.class
+ecommerce/target/ecommerce/login.jsp
+ecommerce/target/maven-archiver/pom.properties
+ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
