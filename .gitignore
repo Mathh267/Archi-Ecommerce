@@ -68,30 +68,17 @@ ecommerce/target/classes/fr/univtours/polytech/ecommerce/servlet/controller/Arti
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 ecommerce/target/ecommerce.war
-<<<<<<< HEAD
 ecommerce/target/classes/fr/univtours/polytech/ecommerce/controller/PanierServlet.class
 ecommerce/target/ecommerce/home.jsp
 ecommerce/target/ecommerce/panier.jsp
 ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/controller/ArticleServlet.class
 ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/controller/PanierServlet.class
-=======
-ecommerce/target/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusiness.class
-ecommerce/target/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusinessImp.class
-ecommerce/target/ecommerce/login.jsp
-ecommerce/target/ecommerce/loginerror.jsp
-ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusiness.class
-ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusinessImp.class
->>>>>>> fad2d30089b7a7853f9a34a7c84a2809359992a8
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
 ecommerce/target/ecommerce.war
-<<<<<<< HEAD
 ecommerce/target/ecommerce/home.jsp
 ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/controller/ArticleServlet.class
-=======
-ecommerce/target/ecommerce/login.jsp
->>>>>>> fad2d30089b7a7853f9a34a7c84a2809359992a8
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
@@ -99,6 +86,7 @@ ecommerce/target/ecommerce/login.jsp
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+<<<<<<< HEAD
 ecommerce/target/ecommerce.war
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
@@ -123,3 +111,21 @@ ecommerce/target/ecommerce/home.jsp
 ecommerce/target/maven-archiver/pom.properties
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
 ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+=======
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/JakartaRestConfiguration.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/ArticleBean.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/UserBean.class
+ecommerce/target/ecommerce.war
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/JakartaRestConfiguration.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/ArticleBean.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/model/UserBean.class
+ecommerce/target/ecommerce/login.jsp
+ecommerce/target/maven-archiver/pom.properties
+ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+ecommerce/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusiness.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusinessImp.class
+ecommerce/target/ecommerce/loginerror.jsp
+ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusiness.class
+ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/business/ConnectionBusinessImp.class
+>>>>>>> fc8bc923262a12f06bb4d434380afe60a95167b8

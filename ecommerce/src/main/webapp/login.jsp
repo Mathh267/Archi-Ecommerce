@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Connexion</h1>
-    <form action="HomeServlet" method="post" >
+    <form action="Home" method="post" >
         <label for="username">Nom d'utilisateur :</label>
         <input type="text" id="username" name="username" required><br><br>
         <label for="password">Mot de passe :</label>
