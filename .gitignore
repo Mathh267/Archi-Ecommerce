@@ -17,3 +17,5 @@ ecommerce/target/ecommerce/WEB-INF/classes/fr/univtours/polytech/ecommerce/model
 ecommerce/target/ecommerce.war
 ecommerce/target/classes/fr/univtours/polytech/ecommerce/DAO/ArticleDAO.class
 ecommerce/target/classes/fr/univtours/polytech/ecommerce/DAO/ArticleDAOImplJPA.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/DAO/UserDAO.class
+ecommerce/target/classes/fr/univtours/polytech/ecommerce/DAO/UserDAOImplJPA.class

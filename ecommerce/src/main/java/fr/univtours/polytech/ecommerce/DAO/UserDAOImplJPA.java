@@ -16,14 +16,9 @@ public class UserDAOImplJPA implements UserDAO{
 
     @SuppressWarnings("unchecked") 
     @Override
-    public UserBean getUserWithLogin(String login,String Password){
+    public Boolean getUserWithLogin(String login,String Password){
         Query requete = em.createNativeQuery("select * from user where Login='"+login+"' AND Password='"+Password+"'", UserBean.class);
         List<UserBean> ListeUser = requete.getResultList();
-        if (ListeUser.isEmpty()){
-           return null;
-        }
-        else{
-            return ListeUser.get(0);
-        }
+        return !ListeUser.isEmpty();
     }
 }
